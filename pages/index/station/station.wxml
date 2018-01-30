@@ -1,0 +1,58 @@
+<!--pages/index/station/station.wxml-->
+<view id='container'>
+  <view id='form'>
+    <form>
+      <text>{{formHolderText}}</text>
+      <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <view class="picker">
+          {{region[0]}}，{{region[1]}}，{{region[2]}}
+          <image class='arrow' src='{{arrow}}'></image>
+        </view>
+      </picker>
+    </form>
+  </view>
+  <view id='service-center'>
+    <view id='title'>
+      <text>{{serviceHolderText}}</text>
+    </view>
+    <view class='center-items'>
+      <view id='num-content'>
+        <image class='items-content' id='numImg' src='{{numImg}}'></image>
+        <text>{{itemsNumber[0]}}</text>
+        <view class='items-content' id='items-name'>{{itemsName[0]}}</view>
+      </view>
+      <view id='text-content'>
+        <view class='items-content' id='place'>{{place[0]}}</view>
+        <view class='items-content' id='time'>{{time[0]}}</view>
+        <view class='items-content' id='phone'>{{phone[0]}}</view>
+        <navigator class='items-content' id='map'>{{map}}</navigator>
+      </view>
+    </view>
+    <view class='center-items'>
+      <view id='num-content'>
+        <image class='items-content' id='numImg' src='{{numImg}}'></image>
+        <text>{{itemsNumber[1]}}</text>
+        <view class='items-content' id='items-name'>{{itemsName[1]}}</view>
+      </view>
+      <view id='text-content'>
+        <view class='items-content' id='place'>{{place[1]}}</view>
+        <view class='items-content' id='time'>{{time[1]}}</view>
+        <view class='items-content' id='phone'>{{phone[1]}}</view>
+        <navigator class='items-content' id='map'>{{map}}</navigator>
+      </view>
+    </view>
+    <view class='center-items'>
+      <view id='num-content'>
+        <image class='items-content' id='numImg' src='{{numImg}}'></image>
+        <text>{{itemsNumber[1]}}</text>
+        <view class='items-content' id='items-name'>{{itemsName[1]}}</view>
+      </view>
+      <view id='text-content'>
+        <view class='items-content' id='place'>{{place[1]}}</view>
+        <view class='items-content' id='time'>{{time[1]}}</view>
+        <view class='items-content' id='phone'>{{phone[1]}}</view>
+        <navigator class='items-content' id='map'>{{map}}</navigator>
+      </view>
+    </view>
+  </view>
+</view>

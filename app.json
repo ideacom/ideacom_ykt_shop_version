@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/myinfo/myinfo",
+    "pages/myinfo/login/login",
+    "pages/myinfo/register/register",
+    "pages/logs/logs",
+    "pages/myinfo/order/order",
+    "pages/myinfo/local/local",
+    "pages/myinfo/vip/vip",
+    "pages/product/detil/detil",
+    "pages/product/detil/orderDetil/orderDetil",
+    "pages/index/station/station",
+    "pages/index/alternateDetil/alternateDetil",
+    "pages/index/peijian/peijian",
+    "pages/index/progress/progress",
+    "pages/index/safe/safe",
+    "pages/index/charge/charge",
+    "pages/index/reserve/reserve"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "物联科技",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#16844D",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "images/product.png",
+        "selectedIconPath": "images/product_selected.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "images/myinfo.png",
+        "selectedIconPath": "images/myinfo_selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

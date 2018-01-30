@@ -1,0 +1,35 @@
+<!--pages/product/product.wxml-->
+  <view id='container'>
+    <view class='tableView'>
+      <view class='tag' id='tag1'>
+        <view><image src='{{tagImg[0]}}'></image></view>
+        <text>{{tagText[0]}}</text>
+        <text>{{tagPrice[0]}}</text>
+      </view>
+      <view class='tag' id='tag2'>
+        <view><image src='{{tagImg[1]}}'></image></view>
+        <text>{{tagText[1]}}</text>
+        <text>{{tagPrice[1]}}</text>
+      </view>
+      <view class='tag' id='tag3'>
+        <view><image src='{{tagImg[2]}}'></image></view>
+        <text>{{tagText[2]}}</text>
+        <text>{{tagPrice[2]}}</text>
+      </view>
+      <view class='tag' id='tag4'>
+        <view><image src='{{tagImg[3]}}'></image></view>
+        <text>{{tagText[3]}}</text>
+        <text>{{tagPrice[3]}}</text>
+      </view>
+      <view class='tag' id='tag5'>
+        <view><image src='{{tagImg[4]}}'></image></view>
+        <text>{{tagText[4]}}</text>
+        <text>{{tagPrice[4]}}</text>
+      </view>
+      <view class='tag' id='tag6'>
+        <view><image src='{{tagImg[5]}}'></image></view>
+        <text>{{tagText[5]}}</text>
+        <text>{{tagPrice[5]}}</text>
+      </view>
+    </view>
+  </view>

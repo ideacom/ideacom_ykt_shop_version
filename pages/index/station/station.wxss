@@ -1,0 +1,84 @@
+/* pages/index/station/station.wxss */
+#container{
+  width: 100%;
+  margin: 0 auto;
+  background: #ECECEC;
+}
+#form{
+  width: 92%;
+  margin: 0 auto;
+  padding: 1% 4% 7% 4%;
+  background: #FFFFFF;
+}
+#form text{
+  color: #7C7C7C;
+  font-size: 26rpx;
+}
+.picker{
+  width: 96%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 2%;
+  margin-top: 2%; 
+  font-size: 30rpx;
+  border: 1px solid #D0D0D0;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow{
+  width: 40rpx;
+  height: 40rpx;
+  transform: rotate(90deg);
+}
+#title{
+  width: 92%;
+  margin: 0 auto;
+  padding: 3% 4%;
+  background: #ECECEC;
+}
+#title text{
+  font-size: 26rpx;
+}
+.center-items{
+  width: 92%;
+  margin: 0 auto 2% auto;
+  padding: 3% 4%;
+  background: #FFFFFF;
+  position: relative;
+}
+#num-content{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+#num-content text{
+  font-size: 20rpx;
+  position: absolute;
+  left: 6.5%;
+  top: 11%;
+  color: #FFF;
+}
+#text-content{
+  margin-left: 10%;
+}
+#numImg{
+  width: 50rpx;
+  height: 50rpx;
+}
+.items-content{
+  font-size: 30rpx;
+  margin: 2% 0;
+}
+#items-name{
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-left: 3%;
+}
+#map{
+  width: 130rpx;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+}

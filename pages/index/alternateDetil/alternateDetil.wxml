@@ -1,0 +1,14 @@
+<!--pages/index/alternateDetil/alternateDetil.wxml-->
+<view id='container'>
+  <view id='video'>
+    <video src='{{videoUrl}}'></video>
+  </view>
+  <view id='detil'>
+    <view wx:for="{{imgUrl}}" class='detilImg'>
+      <image src='{{item}}'></image>
+    </view>
+  </view>
+  <view id='btn' wx:for="{{btn}}">
+    <navigator url='{{item}}'>{{btnText}}</navigator>
+  </view>
+</view> 

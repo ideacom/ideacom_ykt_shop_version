@@ -1,0 +1,66 @@
+/* pages/myinfo/myinfo.wxss */
+#container{
+  width: 100%;
+  height: 100%;
+  background: #ECECEC;
+}
+#header{
+  width: 100%;
+  height: 330rpx;
+  background: #FFFFFF;
+  text-align: center;
+  position: relative;
+}
+#headerBgH{
+  height: 130rpx;
+  background: #25C589;
+}
+/*#headerBg{
+  width: 100%;
+  height: 80rpx;
+  background: #25C589;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius: 50%; 
+  display: inline-block;
+}*/
+#bg{
+  width: 100%;
+  height: 50rpx;
+}
+#logo{
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 70rpx;
+  background: #FFFFFF;
+  padding: 10rpx;
+  position: absolute;
+  top: 22%;
+  left: 40%;
+}
+#logoText{ 
+  font-size: 28rpx;
+  text-align: center;
+  margin-top:6%;
+  display: block;
+}
+#body{
+  margin-top: 2%;
+  background: #FFFFFF;
+}
+.items{
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.items image{
+  width: 35rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  margin: 0 3% 0 5%;
+}
+.items navigator{
+  width: 100%;
+  font-size: 28rpx;
+  border-bottom: 1px solid #ECECEC;
+  display: flex;
+  align-items: center;
+}
